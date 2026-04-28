@@ -1,0 +1,59 @@
+Cardiac Impedance → 2 signals: Z0: Actual Impedance Waveform, dZ/dt: Inverted, 1st Derivate of Z0
+
+Z0
+Each cycle of ECG correspond to a cycle of Z0 → Change in Blood Volume of the Heart
+
+Characteristics: 
+1. Amplitud (Ohms) Typical Average → 5-35 Ohms
+2. Respiratory component in Z0, observed as low-frequency oscillations. The expected Z0 morphology 
+continues to be visible on top of the respiration wave.
+
+dZ/dt 
+Each cycle of ECG correspond to a cycle of dZ/dt → Change in Blood Volume of the Heart
+
+One of the most important features of dZ/dt is the B point “notch” as the signal rises to a Z point peak. 
+The B point will not always be visible depending on a few factors:
+
+Hardware used to collect/derive the signal
+Electrode placement (reference this video, as well as the electrode placement poster)
+Individual differences in physiology
+Having a visible B point is great, however there are algorithms for estimating its location in its absence. 
+Most critically, it is important to recognize that the general shape of this waveform is present.
+
+Note: Another important concept to understand is that Z0 and dZ/dt are different representations of 
+the same measurement – meaning that if one is poor quality, it is likely they both are.
+
+
+
+
+
+Medir Z0, ECG, y GSC
+
+Z0:
+
+
+dZ/dt: Calculada como en negativo la derivada de la señal de Z0.
+
+aplicar filtrado:
+window_size = int(0.05 * fs)  # Ventana de 50 ms
+dz0_dt_smooth = np.convolve(dz0_dt, np.ones(window_size)/window_size, mode='same')
+
+
+Justificado en:
+
+=== Error entre derivada de Z0 y dZ/dt ===
+Error acumulado absoluto: 4903.367309
+Error medio absoluto: 0.079087
+RMSE: 0.109412
+
+=== Error entre derivada de Z0 Filtrada y dZ/dt ===
+Error acumulado absoluto: 3986.627136
+Error medio absoluto: 0.064300
+RMSE: 0.091651
+
+=== Error entre derivada de Z0 Suavizada y dZ/dt ===
+Error acumulado absoluto: 3459.373129
+Error medio absoluto: 0.055796
+RMSE: 0.077654
+
+
