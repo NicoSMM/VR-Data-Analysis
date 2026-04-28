@@ -1,0 +1,8 @@
+Event Type	Name	Time
+Acquisition PC:BioLab	Acquisition Start	0.000
+Keyboard:F1	Keyboard 1	61.704
+Keyboard:F2	Keyboard 2	62.328
+Keyboard:F4	Keyboard 4	62.758
+Keyboard:F6	Keyboard 6	64.636
+MyEvent:Stress	Start Stress	80.000
+MyEvent:Stress	End Stress	120.004

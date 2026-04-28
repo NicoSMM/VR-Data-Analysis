@@ -1,0 +1,6 @@
+Event Type	Name	Date	Time
+Acquisition PC:BioLab	Acquisition Start	04/22/2026	01:01:29.674 PM
+Keyboard:F1	Keyboard 1	04/22/2026	01:03:17.510 PM
+Keyboard:F1	Keyboard 1	04/22/2026	01:03:18.698 PM
+Keyboard:F11	Risas	04/22/2026	01:04:48.022 PM
+Keyboard:F11	acercamiento	04/22/2026	01:05:56.712 PM

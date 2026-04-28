@@ -1,0 +1,2 @@
+Event Type	Name	Time
+Acquisition PC:BioLab	Acquisition Start	0.000
