@@ -1,0 +1,52 @@
+﻿[Header]
+Version: 1.3
+Recorder: VSS
+Date: 2026-04-29
+Time: 12:06:34
+
+[INTERNAL]
+RequestSessionName=1
+RequestMetadata=0
+MarkerPanelVisible=0
+SubjectsPanelVisible=0
+MarkerListVisible=0
+LogListPanelVisibleRec=0
+LogListPanelVisibleReplay=0
+ShowRecordingIndicator=0
+AllowRecordingMute=0
+ImageOverlaysEnabled=0
+EnterCommentAfterMute=0
+BurnAfterRecording=0
+AutoCreateReport=0
+ShowReportAfterCreation=0
+SessionNameVariablesCode=
+TextOverlayVariablesCode=
+MetadataVariables=
+Description=
+ReportFileName=
+TempRecordingPath=
+Subjects=
+Marker=
+CreateSummaryVideo=no
+SummarySaveOriginals=yes
+ChecklistSessionID=-1
+MetadataFile=
+StudioMode=no
+UserName=Lab manager
+ScenarioFile=C:\Users\Public\Documents\Mangold VideoSyncPro Studio Data\Scenario\Default Scenario.MVSScenario
+MarkerFile=C:\Users\Diego Cosmelli\Desktop\testn\2026-04-29_12-06-18_pm_SujetoNicoCentrodeInnovacion4292026_1_\2026-04-29_12-06-18_SujetoNicoCentrodeInnovacion4292026_1.MVSRecMarker
+RecStartDate=4/29/2026
+RecStartTime=435941800000
+BioLabStartTime=04/29/2026 12:06:34.151 PM
+RecStopTime=438218420000
+
+[Data]
+StartTime	StopTime	SenderType	IP Adress	SenderName	FullFileName	Type	Data
+1339	2249895967	VSP	192.168.88.95	Scenario 1	2026-04-29_12-06-18_Stimulus PC 1.mp4	Recording Project	
+4551	2263183159	VSP	192.168.88.95	Scenario 1	2026-04-29_12-06-18_Stimulus PC 2.mp4	Recording Project	
+6055	2276611211	VSP	192.168.88.95	Scenario 1	2026-04-29_12-06-18_Stimulus PC 3.mp4	Recording Project	
+
+[Sources]
+Stimulus PC 1=2026-04-29_12-06-18_Stimulus PC 1.mp4
+Stimulus PC 2=2026-04-29_12-06-18_Stimulus PC 2.mp4
+Stimulus PC 3=2026-04-29_12-06-18_Stimulus PC 3.mp4

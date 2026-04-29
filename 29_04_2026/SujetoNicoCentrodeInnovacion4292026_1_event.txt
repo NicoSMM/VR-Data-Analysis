@@ -1,0 +1,2 @@
+Event Type	Name	Date	Time
+Acquisition PC:BioLab	Acquisition Start	04/29/2026	12:06:34.150 PM
