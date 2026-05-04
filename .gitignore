@@ -1,19 +1,24 @@
+## Archivos ignorados por Git
+
+Los siguientes archivos no se suben a GitHub porque son pesados o dependen del computador local:
+
+```gitignore
 # Videos
 *.mp4
 *.avi
 *.mov
 *.mkv
 
-#Archivos BioLab
+# Archivos BioLab
 *.mwi
 *.mwi-shm
 *.mwi-wal
 *.mwx
 *.cfg
+*.LabSuiteLog
 
 # Archivos grandes opcionales
 *.zip
-*.LabSuiteLog
 
 # Python
 __pycache__/
@@ -22,9 +27,6 @@ __pycache__/
 # Entornos
 .env
 venv/
-
-# Datos pesados (opcional si quieres excluir carpetas completas)
-# data/
 
 # Jupyter
 .ipynb_checkpoints/
