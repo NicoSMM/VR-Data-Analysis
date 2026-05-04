@@ -3,11 +3,13 @@
 Los siguientes archivos no se suben a GitHub porque son pesados o dependen del computador local:
 
 ```gitignore
-# Videos
+# Videos/Imágenes
 *.mp4
 *.avi
 *.mov
 *.mkv
+*.png
+*.jpg
 
 # Archivos BioLab
 *.mwi

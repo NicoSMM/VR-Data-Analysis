@@ -24,8 +24,6 @@ VR-Data-Analysis/
 │   ├── test_Z0.py           # Análisis de ECG, Z0, dZ/dt y EDA
 │   └── complete_test.py     # Script de prueba
 │
-├── Z0.png                   # Figura asociada a la señal Z0
-├── dz_dt.png                # Figura asociada a dZ/dt
 ├── .gitignore
 └── README.md
 
