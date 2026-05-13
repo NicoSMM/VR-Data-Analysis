@@ -21,14 +21,17 @@ Los siguientes archivos no se suben a GitHub porque son pesados o dependen del c
 
 # Archivos grandes opcionales
 *.zip
+*.pt
 
 # Python
 __pycache__/
 *.pyc
 
+
 # Entornos
 .env
 venv/
+yolo_env/
 
 # Jupyter
 .ipynb_checkpoints/
