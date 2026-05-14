@@ -25,7 +25,10 @@ YOLO_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 # ============================================================
 # CONFIGURACIÓN
 # ============================================================
-INPUT_FOLDER = DATA_DIR / "pre-piloto" / "29_04_2026" / "29_04_2026" / "Exp"
+#INPUT_FOLDER = DATA_DIR / "pre-piloto" / "29_04_2026" / "29_04_2026" / "Exp"
+#INPUT_FOLDER = DATA_DIR / "pre-piloto" / "Test Nico" / "Con Mesas"
+INPUT_FOLDER = DATA_DIR / "pre-piloto" / "Test Nico" / "Con MesasyMovimiento"
+#INPUT_FOLDER = DATA_DIR / "pre-piloto" / "Test Nico" / "Sin Mesas"
 VIDEO_EXTENSIONS = [".mp4", ".avi", ".mov", ".mkv"]
 MODEL_PATH = "yolo11n-pose.pt"
 CONFIDENCE_THRESHOLD = 0.4
